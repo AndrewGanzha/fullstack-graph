@@ -1,0 +1,71 @@
+- from: vue
+  to: vue-router
+  type: recommended_with
+
+- from: vue
+  to: pinia
+  type: recommended_with
+
+- from: vue
+  to: vueuse
+  type: recommended_with
+
+- from: vue
+  to: naive-ui
+  type: recommended_with
+
+- from: vue
+  to: nuxt
+  type: extends
+
+- from: naive-ui
+  to: element-plus
+  type: alternative
+
+- from: vee-validate
+  to: zod
+  type: integrates_with
+
+- from: vee-validate
+  to: valibot
+  type: integrates_with
+
+- from: axios
+  to: tanstack-vue-query
+  type: pairs_with
+
+- from: pinia
+  to: tanstack-vue-query
+  type: pairs_with
+
+- from: vite
+  to: vitest
+  type: pairs_with
+
+- from: vue-test-utils
+  to: vitest
+  type: pairs_with
+
+- from: msw
+  to: vitest
+  type: pairs_with
+
+- from: msw
+  to: playwright
+  type: pairs_with
+
+- from: typescript
+  to: zod
+  type: pairs_with
+
+- from: typescript
+  to: valibot
+  type: pairs_with
+
+- from: eslint
+  to: prettier
+  type: pairs_with
+
+- from: unocss
+  to: vite
+  type: pairs_with

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+:root {
+  --vp-font-family-base: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #14b8a6;
+  --vp-c-brand-soft: rgba(20, 184, 166, 0.18);
+}
+
+.dark .graph-wrapper {
+  border-color: rgba(20, 184, 166, 0.3);
+  background: radial-gradient(circle at top, rgba(15, 118, 110, 0.25), transparent 60%),
+    linear-gradient(135deg, rgba(15, 118, 110, 0.18), rgba(15, 23, 42, 0.9));
+  box-shadow: 0 30px 80px rgba(2, 6, 23, 0.6);
+  color: #e2e8f0;
+}
+
+.dark .graph-kicker {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+.dark .graph-subtitle {
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.dark .graph-controls label {
+  color: rgba(226, 232, 240, 0.8);
+}
+
+.dark .graph-controls .toggle {
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.dark .graph-controls input,
+.dark .graph-controls select {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-color: rgba(148, 163, 184, 0.35);
+}
+
+.dark .graph-controls input::placeholder {
+  color: rgba(148, 163, 184, 0.7);
+}
+
+.dark .graph-legend {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(148, 163, 184, 0.35);
+  color: #e2e8f0;
+}
+
+.dark .graph-canvas {
+  background: #f8fafc;
+}
+
+.dark .graph-actions button.ghost {
+  border-color: rgba(20, 184, 166, 0.6);
+  color: #5eead4;
+}
+
+.dark .graph-actions button.solid {
+  background: #14b8a6;
+  color: #042f2e;
+}

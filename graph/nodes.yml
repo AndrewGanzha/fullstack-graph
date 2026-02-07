@@ -1,0 +1,219 @@
+- id: vue
+  title: Vue
+  type: framework
+  area: foundation
+  tags: [vue, framework, ui]
+  solves: [ui_framework]
+  links:
+    docs: https://vuejs.org/
+    repo: https://github.com/vuejs/core
+
+- id: vite
+  title: Vite
+  type: tool
+  area: foundation
+  tags: [build, dev-server]
+  solves: [fast_dev, build_pipeline]
+  links:
+    docs: https://vitejs.dev/
+    repo: https://github.com/vitejs/vite
+
+- id: typescript
+  title: TypeScript
+  type: language
+  area: foundation
+  tags: [types, language]
+  solves: [type_safety]
+  links:
+    docs: https://www.typescriptlang.org/
+    repo: https://github.com/microsoft/TypeScript
+
+- id: vue-router
+  title: Vue Router
+  type: library
+  area: foundation
+  tags: [routing, navigation]
+  solves: [routing]
+  links:
+    docs: https://router.vuejs.org/
+    repo: https://github.com/vuejs/router
+
+- id: pinia
+  title: Pinia
+  type: library
+  area: state
+  tags: [state, store]
+  solves: [state_management]
+  links:
+    docs: https://pinia.vuejs.org/
+    repo: https://github.com/vuejs/pinia
+
+- id: nuxt
+  title: Nuxt
+  type: framework
+  area: foundation
+  tags: [ssr, ssg]
+  solves: [ssr, meta_framework]
+  links:
+    docs: https://nuxt.com/
+    repo: https://github.com/nuxt/nuxt
+
+- id: vee-validate
+  title: VeeValidate
+  type: library
+  area: forms-validation
+  tags: [forms, validation]
+  solves: [form_validation]
+  links:
+    docs: https://vee-validate.logaretm.com/
+    repo: https://github.com/logaretm/vee-validate
+
+- id: zod
+  title: Zod
+  type: library
+  area: forms-validation
+  tags: [schema, validation, typescript]
+  solves: [schema_validation]
+  links:
+    docs: https://zod.dev/
+    repo: https://github.com/colinhacks/zod
+
+- id: valibot
+  title: Valibot
+  type: library
+  area: forms-validation
+  tags: [schema, validation, typescript]
+  solves: [schema_validation]
+  links:
+    docs: https://valibot.dev/
+    repo: https://github.com/fabian-hiller/valibot
+
+- id: tanstack-vue-query
+  title: '@tanstack/vue-query'
+  type: library
+  area: data
+  tags: [data, cache, async]
+  solves: [server_state, caching]
+  links:
+    docs: https://tanstack.com/query/latest/docs/vue/overview
+    repo: https://github.com/TanStack/query
+
+- id: axios
+  title: Axios
+  type: library
+  area: data
+  tags: [http, client]
+  solves: [http_requests]
+  links:
+    docs: https://axios-http.com/
+    repo: https://github.com/axios/axios
+
+- id: ky
+  title: Ky
+  type: library
+  area: data
+  tags: [http, fetch]
+  solves: [http_requests]
+  links:
+    docs: https://github.com/sindresorhus/ky
+    repo: https://github.com/sindresorhus/ky
+
+- id: vueuse
+  title: VueUse
+  type: library
+  area: utils
+  tags: [vue, composables]
+  solves: [utility_composables]
+  links:
+    docs: https://vueuse.org/
+    repo: https://github.com/vueuse/vueuse
+
+- id: naive-ui
+  title: Naive UI
+  type: library
+  area: ui
+  tags: [ui, components]
+  solves: [ui_components]
+  links:
+    docs: https://www.naiveui.com/
+    repo: https://github.com/tusen-ai/naive-ui
+
+- id: element-plus
+  title: Element Plus
+  type: library
+  area: ui
+  tags: [ui, components]
+  solves: [ui_components]
+  links:
+    docs: https://element-plus.org/
+    repo: https://github.com/element-plus/element-plus
+
+- id: vitest
+  title: Vitest
+  type: tool
+  area: testing
+  tags: [testing, unit]
+  solves: [unit_testing]
+  links:
+    docs: https://vitest.dev/
+    repo: https://github.com/vitest-dev/vitest
+
+- id: vue-test-utils
+  title: '@vue/test-utils'
+  type: library
+  area: testing
+  tags: [testing, components]
+  solves: [component_testing]
+  links:
+    docs: https://test-utils.vuejs.org/
+    repo: https://github.com/vuejs/test-utils
+
+- id: playwright
+  title: Playwright
+  type: tool
+  area: testing
+  tags: [testing, e2e]
+  solves: [e2e_testing]
+  links:
+    docs: https://playwright.dev/
+    repo: https://github.com/microsoft/playwright
+
+- id: msw
+  title: MSW
+  type: tool
+  area: testing
+  tags: [testing, mock, api]
+  solves: [mocking]
+  links:
+    docs: https://mswjs.io/
+    repo: https://github.com/mswjs/msw
+
+- id: eslint
+  title: ESLint
+  type: tool
+  area: tooling
+  tags: [lint, quality]
+  solves: [linting]
+  links:
+    docs: https://eslint.org/
+    repo: https://github.com/eslint/eslint
+
+- id: prettier
+  title: Prettier
+  type: tool
+  area: tooling
+  tags: [formatting, quality]
+  solves: [code_formatting]
+  links:
+    docs: https://prettier.io/
+    repo: https://github.com/prettier/prettier
+
+- id: unocss
+  title: UnoCSS
+  type: tool
+  area: tooling
+  tags: [css, utility]
+  solves: [utility_css]
+  links:
+    docs: https://unocss.dev/
+    repo: https://github.com/unocss/unocss
