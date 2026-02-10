@@ -27,7 +27,8 @@
 
 ## Материалы
 
-- Документация Vue.
+- [Документация Vue](https://ru.vuejs.org/).
+- [Песочница реактивности](https://vue-reactivity-pitfalls.netlify.app/?lang=ru#/destructure-reactive)
 
 ```mermaid
 graph TD
