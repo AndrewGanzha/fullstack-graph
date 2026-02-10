@@ -30,9 +30,4 @@
 - [Документация Vue](https://ru.vuejs.org/).
 - [Песочница реактивности](https://vue-reactivity-pitfalls.netlify.app/?lang=ru#/destructure-reactive)
 
-```mermaid
-graph TD
-  vue-->vite
-  vue-->\"vue-router\"
-  vue-->pinia
-```
+[//]: # (Todo вернуть отображение графа)
