@@ -30,11 +30,13 @@
 ## Правила
 
 - `id` только латиница, `kebab-case`.
-- `area` должен совпадать с одной из секций: `foundation`, `ui`, `state`, `forms-validation`, `data`, `utils`, `testing`, `tooling`.
-- `type` для узлов: `framework`, `library`, `tool`, `service` (или другой явный тип, но одинаковый для группы).
+- `area` должен совпадать с одной из секций:
+  - frontend: `foundation`, `ui`, `state`, `forms-validation`, `data`, `utils`, `testing`, `tooling`
+  - backend: `backend-foundation`, `backend-api`, `backend-data`, `backend-infra`, `backend-testing`
+- `type` для узлов: `framework`, `library`, `tool`, `service`, `runtime` (или другой явный и консистентный тип).
 - `type` для связей используем из легенды на странице `/graph`.
 
 ## Что дальше
 
-- Добавьте страницу в соответствующей секции `docs/frontend/...`.
+- Добавьте страницу в соответствующей секции `docs/frontend/...` или `docs/backend/...`.
 - При необходимости добавьте Mermaid-граф внизу страницы.

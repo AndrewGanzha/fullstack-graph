@@ -1,4 +1,4 @@
-# Глобальная карта
+# Глобальная карта fullstack-стека
 
 <ClientOnly>
   <GraphView />

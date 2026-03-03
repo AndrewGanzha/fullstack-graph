@@ -29,16 +29,21 @@ const AREA_COLORS: Record<string, string> = {
   data: '#10b981',
   utils: '#14b8a6',
   testing: '#ef4444',
-  tooling: '#64748b'
+  tooling: '#64748b',
+  'backend-foundation': '#6366f1',
+  'backend-api': '#ec4899',
+  'backend-data': '#22c55e',
+  'backend-infra': '#f59e0b',
+  'backend-testing': '#ef4444'
 }
 
 const EDGE_TYPES = [
-  { id: 'recommended_with', label: 'Рекомендуется вместе', color: '#0ea5e9', style: 'solid' },
-  { id: 'belongs_to', label: 'Относится к', color: '#64748b', style: 'dotted' },
-  { id: 'integrates_with', label: 'Интегрируется', color: '#22c55e', style: 'solid' },
-  { id: 'alternative', label: 'Альтернатива', color: '#f59e0b', style: 'dashed' },
-  { id: 'extends', label: 'Расширение', color: '#8b5cf6', style: 'solid' },
-  { id: 'pairs_with', label: 'Часто вместе', color: '#14b8a6', style: 'solid' }
+  { id: 'recommended_with', label: 'Recommended with', color: '#0ea5e9', style: 'solid' },
+  { id: 'belongs_to', label: 'Belongs to', color: '#64748b', style: 'dotted' },
+  { id: 'integrates_with', label: 'Integrates with', color: '#22c55e', style: 'solid' },
+  { id: 'alternative', label: 'Alternative', color: '#f59e0b', style: 'dashed' },
+  { id: 'extends', label: 'Extends', color: '#8b5cf6', style: 'solid' },
+  { id: 'pairs_with', label: 'Pairs with', color: '#14b8a6', style: 'solid' }
 ]
 
 const nodesData = (yaml.load(nodesRaw) as GraphNode[]) || []
@@ -57,11 +62,6 @@ const areas = computed(() => {
 
 const totalNodes = computed(() => nodesData.length)
 const totalEdges = computed(() => edgesData.length)
-
-const edgeStyleFor = (type: string) => {
-  const entry = EDGE_TYPES.find((item) => item.id === type)
-  return entry ?? { id: type, label: type, color: '#94a3b8', style: 'solid' }
-}
 
 const buildElements = () => {
   const nodes = nodesData.map((node) => ({
@@ -214,41 +214,41 @@ watch(showLabels, () => {
   <section class="graph-wrapper">
     <header class="graph-header">
       <div>
-        <p class="graph-kicker">Vue Knowledge Graph</p>
-        <h2>Интерактивная карта</h2>
+        <p class="graph-kicker">Fullstack Knowledge Graph</p>
+        <h2>Interactive map</h2>
         <p class="graph-subtitle">
-          Узлы: {{ totalNodes }} · Связи: {{ totalEdges }}
+          Nodes: {{ totalNodes }} · Edges: {{ totalEdges }}
         </p>
       </div>
       <div class="graph-actions">
-        <button class="ghost" type="button" @click="resetZoom">Сбросить зум</button>
-        <button class="solid" type="button" @click="rebuildLayout">Перестроить</button>
+        <button class="ghost" type="button" @click="resetZoom">Reset zoom</button>
+        <button class="solid" type="button" @click="rebuildLayout">Rebuild</button>
       </div>
     </header>
 
     <div class="graph-controls">
       <label>
-        <span>Поиск</span>
-        <input v-model="query" type="search" placeholder="VueUse, Pinia, Vitest..." />
+        <span>Search</span>
+        <input v-model="query" type="search" placeholder="Vue, Laravel, FastAPI, PostgreSQL..." />
       </label>
       <label>
-        <span>Область</span>
+        <span>Area</span>
         <select v-model="area">
           <option v-for="item in areas" :key="item" :value="item">
-            {{ item === 'all' ? 'Все' : item }}
+            {{ item === 'all' ? 'All' : item }}
           </option>
         </select>
       </label>
       <label class="toggle">
         <input v-model="showLabels" type="checkbox" />
-        <span>Показывать подписи</span>
+        <span>Show labels</span>
       </label>
     </div>
 
     <div class="graph-body">
       <div class="graph-canvas" ref="cyEl" />
       <aside class="graph-legend">
-        <h3>Легенда связей</h3>
+        <h3>Edge legend</h3>
         <ul>
           <li v-for="edge in EDGE_TYPES" :key="edge.id">
             <span class="swatch" :style="{ background: edge.color }" />
@@ -403,5 +403,4 @@ button.solid {
     grid-template-columns: 1fr;
   }
 }
-
 </style>

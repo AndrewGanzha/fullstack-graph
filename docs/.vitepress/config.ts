@@ -5,8 +5,8 @@ const repoName = 'fullstack-graph'
 
 export default defineConfig({
   lang: 'ru-RU',
-  title: 'Vue Knowledge Graph',
-  description: 'База знаний и граф экосистемы Vue',
+  title: 'Fullstack Knowledge Graph',
+  description: 'База знаний и граф по frontend и backend технологиям',
   cleanUrls: true,
   lastUpdated: true,
   base: process.env.GITHUB_ACTIONS ? `/${repoName}/` : '/',
@@ -20,6 +20,7 @@ export default defineConfig({
     nav: [
       { text: 'Граф', link: '/graph' },
       { text: 'Frontend', link: '/frontend/foundation/' },
+      { text: 'Backend', link: '/backend/' },
       { text: 'Meta', link: '/meta/add-node' }
     ],
     sidebar: {
@@ -38,6 +39,19 @@ export default defineConfig({
           ]
         }
       ],
+      '/backend/': [
+        {
+          text: 'Backend',
+          items: [
+            { text: 'Overview', link: '/backend/' },
+            { text: 'Foundation', link: '/backend/foundation/' },
+            { text: 'API', link: '/backend/api/' },
+            { text: 'Data', link: '/backend/data/' },
+            { text: 'Infrastructure', link: '/backend/infrastructure/' },
+            { text: 'Testing', link: '/backend/testing/' }
+          ]
+        }
+      ],
       '/meta/': [
         {
           text: 'Meta',
@@ -49,7 +63,7 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/andrejganza/fullstack-graph' }
+      { icon: 'github', link: 'https://github.com/AndrewGanzha/fullstack-graph' }
     ]
   }
 })

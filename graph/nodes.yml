@@ -217,3 +217,93 @@
   links:
     docs: https://unocss.dev/
     repo: https://github.com/unocss/unocss
+
+- id: php
+  title: PHP
+  type: language
+  area: backend-foundation
+  tags: [backend, php, language]
+  solves: [backend_language]
+  links:
+    docs: https://www.php.net/docs.php
+    repo: https://github.com/php/php-src
+
+- id: python
+  title: Python
+  type: language
+  area: backend-foundation
+  tags: [backend, python, language]
+  solves: [backend_language]
+  links:
+    docs: https://docs.python.org/3/
+    repo: https://github.com/python/cpython
+
+- id: laravel
+  title: Laravel
+  type: framework
+  area: backend-api
+  tags: [backend, framework, api, php]
+  solves: [api_architecture]
+  links:
+    docs: https://laravel.com/docs
+    repo: https://github.com/laravel/laravel
+
+- id: fastapi
+  title: FastAPI
+  type: framework
+  area: backend-api
+  tags: [backend, framework, api, python]
+  solves: [high_performance_api]
+  links:
+    docs: https://fastapi.tiangolo.com/
+    repo: https://github.com/fastapi/fastapi
+
+- id: postgresql
+  title: PostgreSQL
+  type: service
+  area: backend-data
+  tags: [database, sql, storage]
+  solves: [relational_storage]
+  links:
+    docs: https://www.postgresql.org/docs/
+    repo: https://github.com/postgres/postgres
+
+- id: redis
+  title: Redis
+  type: service
+  area: backend-data
+  tags: [cache, queue, storage]
+  solves: [caching]
+  links:
+    docs: https://redis.io/docs/latest/
+    repo: https://github.com/redis/redis
+
+- id: docker
+  title: Docker
+  type: tool
+  area: backend-infra
+  tags: [containers, devops, deployment]
+  solves: [containerization]
+  links:
+    docs: https://docs.docker.com/
+    repo: https://github.com/docker
+
+- id: pytest
+  title: pytest
+  type: tool
+  area: backend-testing
+  tags: [backend, testing, python]
+  solves: [unit_testing]
+  links:
+    docs: https://docs.pytest.org/
+    repo: https://github.com/pytest-dev/pytest
+
+- id: phpunit
+  title: PHPUnit
+  type: tool
+  area: backend-testing
+  tags: [backend, testing, php]
+  solves: [unit_testing]
+  links:
+    docs: https://docs.phpunit.de/
+    repo: https://github.com/sebastianbergmann/phpunit

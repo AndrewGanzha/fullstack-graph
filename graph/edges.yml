@@ -69,3 +69,43 @@
 - from: unocss
   to: vite
   type: pairs_with
+
+- from: php
+  to: laravel
+  type: recommended_with
+
+- from: python
+  to: fastapi
+  type: recommended_with
+
+- from: laravel
+  to: fastapi
+  type: alternative
+
+- from: laravel
+  to: postgresql
+  type: pairs_with
+
+- from: fastapi
+  to: postgresql
+  type: pairs_with
+
+- from: postgresql
+  to: redis
+  type: pairs_with
+
+- from: docker
+  to: postgresql
+  type: pairs_with
+
+- from: docker
+  to: redis
+  type: pairs_with
+
+- from: pytest
+  to: fastapi
+  type: pairs_with
+
+- from: phpunit
+  to: laravel
+  type: pairs_with
