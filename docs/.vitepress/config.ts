@@ -5,7 +5,7 @@ const repoName = 'fullstack-graph'
 
 export default defineConfig({
   lang: 'ru-RU',
-  title: 'Fullstack Knowledge Graph',
+  title: 'Fullstack Graph',
   description: 'База знаний и граф по frontend и backend технологиям',
   cleanUrls: true,
   lastUpdated: true,

@@ -214,7 +214,7 @@ watch(showLabels, () => {
   <section class="graph-wrapper">
     <header class="graph-header">
       <div>
-        <p class="graph-kicker">Fullstack Knowledge Graph</p>
+        <p class="graph-kicker">Fullstack Graph</p>
         <h2>Interactive map</h2>
         <p class="graph-subtitle">
           Nodes: {{ totalNodes }} · Edges: {{ totalEdges }}
