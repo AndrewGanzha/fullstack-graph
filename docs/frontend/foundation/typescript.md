@@ -25,4 +25,5 @@
 
 ## Материалы
 
-- Документация TypeScript.
+- [Документация TypeScript](https://www.typescriptlang.org/docs/).
+- [Type Challenges](https://github.com/type-challenges/type-challenges).

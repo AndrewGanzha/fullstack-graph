@@ -25,4 +25,5 @@
 
 ## Материалы
 
-- Документация Pinia.
+- [Документация Pinia](https://pinia.vuejs.org/).
+- [Pinia Colada](https://pinia-colada.esm.dev/).

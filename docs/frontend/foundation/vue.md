@@ -28,4 +28,6 @@
 ## Материалы
 
 - [Документация Vue](https://ru.vuejs.org/).
+- [Vue FAQ (RU)](https://vue-faq.org/ru/)
+- [Курс Vue (YouTube)](https://www.youtube.com/watch?v=eGmCop_pmC8&list=PLOjCcvKYFQgKqNqDBw8G2kLxFbrWYBqJ1)
 - [Песочница реактивности](https://vue-reactivity-pitfalls.netlify.app/?lang=ru#/destructure-reactive)
