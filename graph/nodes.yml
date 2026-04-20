@@ -48,6 +48,16 @@
     docs: https://pinia.vuejs.org/
     repo: https://github.com/vuejs/pinia
 
+- id: pinia-colada
+  title: Pinia Colada
+  type: library
+  area: state
+  tags: [state, server-state, cache]
+  solves: [server_state, caching]
+  links:
+    docs: https://pinia-colada.esm.dev/
+    repo: https://github.com/posva/pinia-colada
+
 - id: nuxt
   title: Nuxt
   type: framework

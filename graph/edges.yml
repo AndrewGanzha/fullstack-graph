@@ -38,6 +38,10 @@
   to: tanstack-vue-query
   type: pairs_with
 
+- from: pinia
+  to: pinia-colada
+  type: extends
+
 - from: vite
   to: vitest
   type: pairs_with
