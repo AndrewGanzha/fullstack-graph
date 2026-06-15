@@ -7,3 +7,4 @@
 - [TypeScript](/frontend/foundation/typescript)
 - [Vue Router](/frontend/foundation/vue-router)
 - [Nuxt](/frontend/foundation/nuxt)
+- [Web реактивность](/frontend/foundation/reactivity-history)
